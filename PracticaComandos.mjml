@@ -1,0 +1,36 @@
+<mj-section background-url="/Imagenes/B2FFEF.jpg">
+    <mj-column>
+        <mj-text> Columna 1 </mj-text>
+    </mj-column>
+    <mj-column>
+        <mj-text> Columna 2 </mj-text>
+    </mj-column>
+    <mj-column>
+        <mj-text> Columna 3 </mj-text>
+    </mj-column>
+    <mj-column>
+        <mj-text> Columna 4 </mj-text>
+    </mj-column>
+            
+</mj-section>
+
+<mj-section background-color="#97f2d6">
+
+    <mj-column>
+        <mj-text align="left"> Texto a la izquierda</mj-text>
+    </mj-column>
+    <mj-column>
+        <mj-text align="right"><a href="email-permalink"> Texto a la derecha y con enlace </a></mj-text>
+    </mj-column>
+</mj-section>
+<mj-section background-color="#97f2d6">
+    <mj-column>
+        <mj-image src="/Imagenes/gato.png"></mj-image>
+        <mj-text align="center"> Texto al centro </mj-text>
+        <mj-button background-color="#45c98c" align="left"> Clica Aquí </mj-button> 
+    </mj-column>
+</mj-section>
+    
+ 
+
+
