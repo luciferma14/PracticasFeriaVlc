@@ -26,8 +26,8 @@
            <mj-column>
                 <mj-image src="/ImageSup4/FotoFeria2Ruedas.jpg"></mj-image>
                 <mj-text align="center" font-size="20px">
-                    <h1>¿2 ENTRADAS GRATIS?</h1>
-                    <h3>GP de motociclismo  de Cheste</h3>
+                    <h1>¡2 ENTRADAS GRATIS!</h1>
+                    <h3>GP de Motociclismo  de Cheste</h3>
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -35,11 +35,12 @@
             <mj-group>
                 <mj-column>
                     <mj-text align="left" font-size="18px">
-                        <h2>Consigue 2 entradas gratis gracias al sorteo de Feria Dos Ruedas</h2>
+                        <h2>Consigue 2 entradas gratis participando en el sorteo de Feria Dos Ruedas</h2>
                     </mj-text>
                 </mj-column>
                 <mj-column>
-                    <mj-image padding="0px" padding-bottom="200px" width="590px" height="300px" css-class="motoNegra"
+                    <mj-image padding="0px" padding-bottom="50px" width="590px" height="300px" 
+                    css-class="motoNegra"
                     src="/ImageSup4/motoN.png" />
                 </mj-column>
             </mj-group>
