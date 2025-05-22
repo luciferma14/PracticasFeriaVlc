@@ -15,7 +15,6 @@
 
             .motoNegra {
                 transform: scaleX(-1) rotate(-30deg);
-                position: fixed;
             }
 
         </mj-style>
