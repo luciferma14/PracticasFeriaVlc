@@ -1,0 +1,61 @@
+<mjml>
+  <mj-head>
+	<mj-title>¡Hola, {{nombre}}!</mj-title>
+	<mj-attributes>
+  	<mj-all font-family="Arial, sans-serif" />
+  	<mj-text color="#333" font-size="16px" line-height="24px" />
+  	<mj-button background-color="#007bff" color="#ffffff" border-radius="5px" />
+	</mj-attributes>
+	<mj-style>
+  	.custom-media-query {
+    	font-size: 14px !important;
+  	}
+  	/* Media Query 1: Para pantallas muy pequeñas */
+  	@media only screen and (max-width: 480px) {
+    	.mobile-hidden { display: none !important; }
+    	.full-width-on-mobile { width: 100% !important; display: block !important; }
+  	}
+  	/* Media Query 2: Para tablets (orientación retrato) */
+  	@media only screen and (min-width: 481px) and (max-width: 768px) {
+    	.tablet-adjust-text { font-size: 18px !important; }
+  	}
+  	/* Media Query 3: Ejemplo de ajuste para pantallas grandes */
+  	@media only screen and (min-width: 769px) {
+    	.desktop-specific-padding { padding: 40px !important; }
+  	}
+	</mj-style>
+  </mj-head>
+  <mj-body background-color="#f4f4f4">
+	<mj-section background-color="#ffffff" padding="20px">
+  	<mj-column>
+    	<mj-image src="https://www.feriavalencia.com/wp-content/uploads/Feria-Valencia-Logo.png" alt="Logo Feria Valencia" width="150px" />
+    	<mj-text align="center" font-size="24px" font-weight="bold">¡Bienvenido a Feria Valencia, {{nombre}}!</mj-text>
+    	<mj-text>Estimado/a {{nombre}}</mj-text>
+    	<mj-text>Estamos encantados de invitarte a nuestro próximo evento. Esperamos verte allí.</mj-text>
+    	<mj-button href="https://www.feriavalencia.com/eventos/" align="center">Ver Eventos</mj-button>
+    	<mj-text css-class="mobile-hidden">Este texto se oculta en móviles.</mj-text>
+    	<mj-text css-class="tablet-adjust-text">Este texto se ajusta en tablets.</mj-text>
+    	<mj-text css-class="desktop-specific-padding">Conoce todas las novedades de Feria Valencia.</mj-text>
+    	<mj-spacer height="20px" />
+    	<mj-text font-size="12px" color="#999" align="center">Este correo ha sido enviado a {{email}}.</mj-text>
+  	</mj-column>
+	</mj-section>
+  </mj-body>
+</mjml>
+
+<mjml>
+  <mj-body>
+    <mj-section padding="0">
+      <mj-column width="100%">
+        <mj-image src="/ImageSup4/MN.png" alt="Imagen al borde" padding="0" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text>Este es un texto con el padding por defecto de la sección y columna.</mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

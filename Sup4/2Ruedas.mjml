@@ -17,6 +17,28 @@
                 transform: scaleX(-1) rotate(-30deg);
             }
 
+            .motoRoja {
+                transform: rotate(-15deg);
+            }
+
+        </mj-style>
+        <mj-style>
+            .custom-media-query {
+                font-size: 14px !important;
+            }
+            /* Media Query 1: Para pantallas muy pequeñas */
+            @media only screen and (max-width: 480px) {
+                .movil { display: none !important; }
+                .full-width-on-mobile { width: 100% !important; display: block !important; }
+            }
+            /* Media Query 2: Para tablets (orientación retrato) */
+            @media only screen and (min-width: 481px) and (max-width: 768px) {
+                .tablet { font-size: 18px !important; }
+            }
+            /* Media Query 3: Ejemplo de ajuste para pantallas grandes */
+            @media only screen and (min-width: 769px) {
+                .ordenador { padding: 40px !important; }
+            }
         </mj-style>
         
     </mj-head>
@@ -24,25 +46,48 @@
         <mj-section background-color="#bb262c">
            <mj-column>
                 <mj-image src="/ImageSup4/FotoFeria2Ruedas.jpg"></mj-image>
-                <mj-text align="center" font-size="20px">
+                <mj-text align="left" font-size="20px">
                     <h1>¡2 ENTRADAS GRATIS!</h1>
                     <h3>GP de Motociclismo  de Cheste</h3>
                 </mj-text>
             </mj-column>
         </mj-section>
         <mj-section background-color="#bb262c">
-            <mj-group>
                 <mj-column>
                     <mj-text align="left" font-size="18px">
                         <h2>Consigue 2 entradas gratis participando en el sorteo de Feria Dos Ruedas</h2>
                     </mj-text>
                 </mj-column>
                 <mj-column>
-                    <mj-image padding="0px" padding-bottom="50px" width="590px" height="300px" 
-                    css-class="motoNegra"
-                    src="/ImageSup4/motoN.png" />
+                    <mj-image padding="0px" height="300px" align="left"
+                        css-class="motoNegra" src="/ImageSup4/MN.png"/>
                 </mj-column>
-            </mj-group>
+        </mj-section>
+        <mj-section background-color="#bb262c">
+           <mj-column>
+                <mj-text align="left" font-size="20px">
+                    <h1>¿CÓMO PARTICIPAR?</h1>
+                    <h3>Solamente tienes que rellenar el formulario</h3>
+                </mj-text>
+                <mj-button background-color="#bfbfbf" color="black" font-size="20px" 
+                    border-radius="25px" border="2px solid black">
+                    <mj-text >
+                        <b>PARTICIPA</b>
+                    </mj-text>
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <mj-section background-color="#bb262c">
+            <mj-column>
+                <mj-image padding="0px" height="250px" width="400px"
+                    padding-bottom="100px" align="left"
+                    css-class="motoRoja" src="/ImageSup4/MR.png"/>
+
+                <mj-image padding="0px" height="300px" width="350px" 
+                padding-left="260px"
+                src="/ImageSup4/B.png"/>
+
+            </mj-column>
         </mj-section>
     </mj-body>
 </mjml>
