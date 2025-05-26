@@ -3,53 +3,44 @@
     <mj-title>Supuesto 4</mj-title>
     <mj-attributes>
       <mj-section padding="0" />
-      <mj-column padding="0" />
       <mj-image padding="0" />
       <mj-all font-family="Arial, Roboto, sans-serif" />
     </mj-attributes>
-    <mj-style>
-      .contornoLetras {
-        text-shadow: 
-            -1px -1px 0 #bfbfbf,  
-            1px -1px 0 #bfbfbf,
-            -1px  1px 0 #bfbfbf,
-            1px  1px 0 #bfbfbf;
-      }
-      .motoNegra {
-        transform: scaleX(-1) rotate(-27.8deg);
-      }
-      .motoRoja {
-        transform: rotate(-19deg);
-      }
-    </mj-style>
-    <mj-style>
-      .custom-media-query {
-        font-size: 14px !important;
-      }
-      /* Media Query 1: Para pantallas muy pequeñas */
+    
+    <mj-style inline="inline">
+      /* Media Query 1: Ocultar en móvil y ajustar ancho */
       @media only screen and (max-width: 480px) {
-        .movil { display: none !important; }
-        .full-width-on-mobile { width: 100% !important; display: block !important; }
+        .movil {
+          display: none !important; /* Oculta elementos con mj-class="movil" en móviles */
+        }
+        .no-word-break {
+          /* Usamos both para mayor compatibilidad */
+          word-break: break-word !important;
+          overflow-wrap: break-word !important;
+        }
       }
-      /* Media Query 3: Ejemplo de ajuste para pantallas grandes */
+
+      /* Media Query 2: Ejemplo de ajuste para pantallas grandes (ordenador) */
       @media only screen and (min-width: 769px) {
-        .ordenador { padding: 40px !important; }
+        .ordenador {
+          padding: 40px !important; /* Aplica un padding de 40px a elementos con mj-class="ordenador" en pantallas grandes */
+        }
       }
     </mj-style>
   </mj-head>
 
   <mj-body >
-   <mj-section background-color="#bb262c" css-class="contornoLetras">
+   <mj-section background-color="#bb262c" >
         <mj-column>
-            <mj-image src="/ImageSup4/FotoFeria2Ruedas.jpg"></mj-image>
-            <mj-text align="left" font-size="20px" >
+            <mj-image src="http://44.196.233.47/FotoFeria2Ruedas.jpg"></mj-image>
+            <mj-text align="left" font-size="20px" mj-class=".no-word-break ">
                 <h1>¡ENTRADAS GRATIS!</h1>
                 <h3>GP de Motociclismo de Cheste</h3>
             </mj-text>
         </mj-column>
     </mj-section> 
 
-    <mj-section background-color="#bb262c" css-class="contornoLetras">
+    <mj-section background-color="#bb262c" mj-class=".no-word-break">
       <mj-column width="50%">
         <mj-text align="left" font-size="18px" line-height="36px">
           <h2>Consigue 2 entradas gratis participando en el sorteo de Feria Dos Ruedas.</h2>
@@ -57,27 +48,27 @@
       </mj-column>
       <mj-column width="50%">
         <mj-image height="300px" align="right" padding-bottom="0px"
-            css-class="motoNegra" src="/ImageSup4/MN.png"/>
+          src="http://44.196.233.47/mn.jpg" mj-class="movil"/>
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#bb262c" css-class="contornoLetras" padding-top="0px">
+    <mj-section background-color="#bb262c" >
         <mj-column>
-            <mj-text align="left" font-size="20px" line-height="0px" padding-top="0px">
+            <mj-text align="left" font-size="20px">
                 <h1>¿CÓMO PARTICIPAR?</h1>
             </mj-text>
         </mj-column>
     </mj-section>
     
-    <mj-section background-color="#bb262c" css-class="contornoLetras" padding-top="0px">
+    <mj-section background-color="#bb262c">
         <mj-column>
             <mj-text align="left" font-size="20px" line-height="1.2">
-            <h3>Solamente tienes que rellenar el formulario antes del 1 de septiembre.</h3>
+            <h3>Solo tienes que rellenar el formulario antes del 1 de septiembre.</h3>
             </mj-text>
         </mj-column>
     </mj-section>
 
-    <mj-section background-color="#bb262c" css-class="contornoLetras">
+    <mj-section background-color="#bb262c">
         <mj-column>
             <mj-button background-color="#bfbfbf" color="black" font-size="20px" 
             border-radius="25px" border="2px solid black" href="https://www.feriavalencia.com/">
@@ -88,33 +79,29 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="#bb262c" padding-bottom="0px">
-        <mj-column width="100%" vertical-align="top">
-            <mj-image height="250px" width="400px" padding-bottom="10px" align="left"
-                css-class="motoRoja" src="/ImageSup4/MR.png"/>
-        </mj-column>
+    <mj-section background-color="#bb262c" >
         <mj-group>
             <mj-column>
                 <mj-image height="40px" width="45px" align="left"
-                padding-left="5px" href="https://www.instagram.com/feriavalencia/?hl=es"
-                src="/ImageSup4/insta.jpg"/>
+                padding-left="35px" href="https://www.instagram.com/feriavalencia/?hl=es"
+                src="http://44.196.233.47/insta.jpg"/>
             </mj-column> 
             <mj-column> 
                 <mj-image height="40px" width="45px" align="left"
-                padding-left="5px" href="https://www.facebook.com/feriavalencia/?locale=es_ES"
-                src="/ImageSup4/face.jpg"/>
+                padding-left="15px" href="https://www.facebook.com/feriavalencia/?locale=es_ES"
+                src="http://44.196.233.47/face.jpg"/>
             </mj-column> 
             <mj-column> 
                 <mj-image height="43px" width="45px" align="left"
-                padding-left="10px" href="https://x.com/feria_valencia?lang=es"
-                src="/ImageSup4/twi.jpg"/>
+                padding-left="0px" href="https://x.com/feria_valencia?lang=es"
+                src="http://44.196.233.47/twi.jpg"/>
             </mj-column>    
             
         </mj-group>
         <mj-column width="50%" vertical-align="middle">
             <mj-image height="240px" width="350px" align="right"
             padding-right="0px" padding-bottom="0px" padding-top="0px"
-            src="/ImageSup4/B.png"/>
+            src="http://44.196.233.47/B.png"/>
         </mj-column>
     </mj-section>
 
