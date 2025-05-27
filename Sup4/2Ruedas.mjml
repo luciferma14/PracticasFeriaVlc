@@ -63,7 +63,7 @@
     <mj-section background-color="#bb262c">
         <mj-column>
             <mj-text align="left" font-size="20px" line-height="1.2">
-            <h3>Solo tienes que rellenar el formulario antes del 1 de septiembre.</h3>
+            <h3>Sólo tienes que rellenar el formulario antes del 1 de septiembre.</h3>
             </mj-text>
         </mj-column>
     </mj-section>
@@ -71,7 +71,7 @@
     <mj-section background-color="#bb262c">
         <mj-column>
             <mj-button background-color="#bfbfbf" color="black" font-size="20px" 
-            border-radius="25px" border="2px solid black" href="https://www.feriavalencia.com/">
+            border-radius="25px" border="2px solid black" href="https://forms.gle/v6SQALaw2guDymTJ6">
             <mj-text>
                 <b>PARTICIPA</b>
             </mj-text>
