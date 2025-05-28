@@ -123,7 +123,7 @@ El hecho de pasar los archivos como argumentos, nos ayuda a poder reutilizar el 
 
 #### Para ejecutar `enviarCorreo.js`:
 
-- Primero nos aseguramos que tenien persimos de ejecución:
+- Primero nos aseguramos que tiene permiso de ejecución:
 
 ```bash
 chmod +x enviarCorreo.js
