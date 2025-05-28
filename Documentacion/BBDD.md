@@ -158,7 +158,7 @@ exit 0
 
 #### Para ejecutar `leerSus.sh`:
 
-- Primero nos aseguramos que tiene persimos de ejecución:
+- Primero nos aseguramos que tiene permiso de ejecución:
 
 ```bash
 chmod +x leerSus.sh
