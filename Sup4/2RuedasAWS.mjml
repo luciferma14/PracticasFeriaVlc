@@ -54,7 +54,7 @@
 
     <mj-section background-color="#bb262c" >
         <mj-column>
-            <mj-text align="left" font-size="20px">
+            <mj-text align="left" font-size="20px" padding-bottom="0px">
                 <h1>¿CÓMO PARTICIPAR?</h1>
             </mj-text>
         </mj-column>
@@ -62,7 +62,7 @@
     
     <mj-section background-color="#bb262c">
         <mj-column>
-            <mj-text align="left" font-size="20px" line-height="1.2">
+            <mj-text align="left" font-size="20px" line-height="1.2" padding-top="0px">
             <h3>Sólo tienes que rellenar el formulario antes del 1 de septiembre.</h3>
             </mj-text>
         </mj-column>
@@ -105,13 +105,12 @@
         </mj-column>
     </mj-section>
 
-    <mj-section background-color="black" padding-top="25px">
+    <mj-section background-color="black" padding-top="15px">
         <mj-column>
-            <mj-text line-height="0px" align="center" color="#bfbfbf">
+            <mj-text line-height="15px" align="center" color="#bfbfbf" >
                 Puedes consultar las bases legales del sorteo en
             </mj-text>
-            <mj-text line-height="0px"align="center" color="#bfbfbf" 
-            text-decoration="underline"> 
+            <mj-text line-height="0px"align="center" color="#bfbfbf"> 
             <a href="https://www.feriavalencia.com/">www.feriavalencia.com</a>    
             </mj-text>
         </mj-column>

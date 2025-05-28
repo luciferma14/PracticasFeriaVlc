@@ -1,0 +1,138 @@
+<mjml>
+  <mj-head>
+    <mj-title>Supuesto 4</mj-title>
+    <mj-attributes>
+      <mj-section padding="0" />
+      <mj-image padding="0" />
+      <mj-all font-family="Arial, Roboto, sans-serif" />
+    </mj-attributes>
+    
+    <mj-style inline="inline">
+      /* Media Query 1: Ocultar en móvil y ajustar ancho */
+      @media only screen and (max-width: 480px) {
+        .movil {
+          display: none !important; /* Oculta elementos con mj-class="movil" en móviles */
+        }
+        .no-word-break {
+          /* Usamos both para mayor compatibilidad */
+          word-break: break-word !important;
+          overflow-wrap: break-word !important;
+        }
+      }
+
+      /* Media Query 2: Ejemplo de ajuste para pantallas grandes (ordenador) */
+      @media only screen and (min-width: 769px) {
+        .ordenador {
+          padding: 40px !important; /* Aplica un padding de 40px a elementos con mj-class="ordenador" en pantallas grandes */
+        }
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body >
+   <mj-section background-color="#bb262c" >
+        <mj-column>
+            <mj-image src="https://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/FotoFeria2Ruedas.jpg"></mj-image>
+            <mj-text align="left" font-size="20px" mj-class=".no-word-break ">
+                <h1>¡ENTRADAS GRATIS!</h1>
+                <h3>GP de Motociclismo de Cheste</h3>
+            </mj-text>
+        </mj-column>
+    </mj-section> 
+
+    <mj-section background-color="#bb262c" mj-class=".no-word-break">
+      <mj-column width="50%">
+        <mj-text align="left" font-size="18px" line-height="36px">
+          <h2>Consigue 2 entradas gratis participando en el sorteo de Feria Dos Ruedas.</h2>
+        </mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-image height="300px" align="right" padding-bottom="0px"
+          src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/mn.jpg" mj-class="movil"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#bb262c" >
+        <mj-column>
+            <mj-text align="left" font-size="20px">
+                <h1>¿CÓMO PARTICIPAR?</h1>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    
+    <mj-section background-color="#bb262c">
+        <mj-column>
+            <mj-text align="left" font-size="20px" line-height="1.2">
+            <h3>Sólo tienes que rellenar el formulario antes del 1 de septiembre.</h3>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#bb262c">
+        <mj-column>
+            <mj-button background-color="#bfbfbf" color="black" font-size="20px" 
+            border-radius="25px" border="2px solid black" href="https://forms.gle/v6SQALaw2guDymTJ6">
+            <mj-text>
+                <b>PARTICIPA</b>
+            </mj-text>
+            </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#bb262c" >
+        <mj-group>
+            <mj-column>
+                <mj-image height="40px" width="45px" align="left"
+                padding-left="35px" href="https://www.instagram.com/feriavalencia/?hl=es"
+                src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/insta.jpg"/>
+            </mj-column> 
+            <mj-column> 
+                <mj-image height="40px" width="45px" align="left"
+                padding-left="15px" href="https://www.facebook.com/feriavalencia/?locale=es_ES"
+                src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/face.jpg"/>
+            </mj-column> 
+            <mj-column> 
+                <mj-image height="43px" width="45px" align="left"
+                padding-left="0px" href="https://x.com/feria_valencia?lang=es"
+                src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/twi.jpg"/>
+            </mj-column>    
+            
+        </mj-group>
+        <mj-column width="50%" vertical-align="middle">
+            <mj-image height="240px" width="350px" align="right"
+            padding-right="0px" padding-bottom="0px" padding-top="0px"
+            src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/B.png"/>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="black" padding-top="25px">
+        <mj-column>
+            <mj-text line-height="0px" align="center" color="#bfbfbf">
+                Puedes consultar las bases legales del sorteo en
+            </mj-text>
+            <mj-text line-height="0px"align="center" color="#bfbfbf" >
+            <a href="https://www.feriavalencia.com/">www.feriavalencia.com</a>    
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="black" padding-top="15px">
+        <mj-column>
+            <mj-text line-height="0px" align="center" color="#bfbfbf">
+                Para darte de baja, pincha <a href="https://www.feriavalencia.com/contacto/">aquí</a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <mj-section background-color="black" padding-top="1px">
+        <mj-column>
+            <mj-text line-height="15px" align="center" color="#bfbfbf" font-size="10.1px">
+                Has recibido este correo por cuenta de SOCIETAT VALENCIANA FIRA VALÈNCIA S.A. 
+                porque nos has autorizado a enviarte comunicaciones comerciales de FIRA 
+                VALÈNCIA. Recuerda que puedes obtener más información sobre cómo usamos tus 
+                datos personales y cuáles son tus derechos en la <a href="https://www.feriavalencia.com/politica-de-privacidad/">Política de Privacidad</a> disponible en la web de FIRA VALÈNCIA.</mj-text>
+        </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
+
