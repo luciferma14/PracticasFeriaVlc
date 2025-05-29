@@ -12,7 +12,8 @@
       /* Corregir line-height para legibilidad y establecer valores de escritorio */
       .titulo-principal h1 {
         font-size: 23px !important;
-        line-height: 28px !important; /* Ajustado para que el texto no se superponga */
+        line-height: 28px !important;
+        text-align: center; /* Ajustado para que el texto no se superponga */
       }
       .subtitulo-principal h2 {
         font-size: 20px !important;
@@ -40,6 +41,7 @@
         .titulo-principal h1 {
           font-size: 20px !important;
           line-height: 24px !important;
+          text-align: center;
         }
         .subtitulo-principal h2 {
           font-size: 18px !important;
@@ -130,17 +132,20 @@
             <mj-column>
                 <mj-image height="40px" width="45px" align="left"
                 padding-left="35px" href="https://www.instagram.com/feriavalencia/?hl=es"
-                src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/insta.jpg" mj-class="social-icon"/>
+                src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/insta.jpg" 
+                mj-class="social-icon"/>
             </mj-column> 
             <mj-column> 
                 <mj-image height="40px" width="45px" align="left"
                 padding-left="15px" href="https://www.facebook.com/feriavalencia/?locale=es_ES"
-                src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/face.jpg" mj-class="social-icon"/>
+                src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/face.jpg" 
+                mj-class="social-icon"/>
             </mj-column> 
             <mj-column> 
                 <mj-image height="43px" width="45px" align="left"
                 padding-left="0px" href="https://x.com/feria_valencia?lang=es"
-                src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/twi.jpg" mj-class="social-icon"/>
+                src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup4/ImageSup4/twi.jpg" 
+                mj-class="social-icon"/>
             </mj-column>    
             
         </mj-group>
@@ -183,4 +188,3 @@
     </mj-section>
   </mj-body>
 </mjml>
-src="http://44.196.233.47/B.png"
