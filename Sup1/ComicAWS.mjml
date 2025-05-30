@@ -25,7 +25,7 @@
 
         <mj-section background-color="#b4d495" padding="0px"> 
         <mj-column>
-            <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Cabezera.jpg" padding-top="0px" padding="0px"
+            <mj-image src="http://44.196.233.47/Sup1/Cabezera.jpg" padding-top="0px" padding="0px"
                 href="https://www.saloncomicvalencia.com/"></mj-image>
             <mj-text align="center" font-size="16.4px" color="#2b3a21"
                 line-height="33px" padding-bottom="0px">
@@ -55,7 +55,7 @@
             </mj-column>
 
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Portada.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://44.196.233.47/Sup1/Portada.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
         </mj-section>
 
@@ -76,7 +76,7 @@
 
         <mj-section background-color="#b4d495" padding="0px">
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Escritora.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://44.196.233.47/Sup1/Escritora.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
             <mj-column>
                 <mj-text align="left" font-size="18.7px" color="#2b3a21" 
@@ -108,7 +108,7 @@
                 </mj-text>
             </mj-column>
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Eusebio.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://44.196.233.47/Sup1/Eusebio.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
         </mj-section>
 
@@ -137,10 +137,10 @@
                     novedades editoriales, tiendas de merchandising 
                     exclusivo y mucho más!!</p>
                 </mj-text>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Figuras.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://44.196.233.47/Sup1/Figuras.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Anime.jpg" padding-top="60px" 
+                <mj-image src="http://44.196.233.47/Sup1/Anime.jpg" padding-top="60px" 
                 css-class="movil_no"></mj-image>
             </mj-column>
         </mj-section>
@@ -170,7 +170,7 @@
                     en categorías como <strong> Mejor Obra Nacional y Mejor 
                     Artista Revelación.</strong></p>
                 </mj-text>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Premios.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://44.196.233.47/Sup1/Premios.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
         </mj-section>
 
@@ -205,11 +205,11 @@
 
         <mj-section background-color="#b4d495" padding="0px">
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Dibujo.jpg" padding-top="30.6px"
+                <mj-image src="http://44.196.233.47/Sup1/Dibujo.jpg" padding-top="30.6px"
                     href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/SenyorDibujo.jpg" css-class="movil_no"
+                <mj-image src="http://44.196.233.47/Sup1/SenyorDibujo.jpg" css-class="movil_no"
                     href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
         </mj-section>
@@ -238,7 +238,7 @@
                 </mj-text>
             </mj-column>
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Gary.jpg" padding-top="30.6px"
+                <mj-image src="http://44.196.233.47/Sup1/Gary.jpg" padding-top="30.6px"
                     href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
         </mj-section>
@@ -246,20 +246,19 @@
             <mj-group>    
                 <mj-column padding-top="25px">
                     <mj-image height="43px" width="50px" 
-                     href="https://www.instagram.com/feriavalencia/?hl=es"
-                    src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/ins.jpg" 
+                     href="http://44.196.233.47/Sup1/ins.jpg" 
                     mj-class="social-icon"/>
                 </mj-column> 
                 <mj-column padding-top="25px"> 
                     <mj-image height="40px" width="45px" 
                     href="https://www.facebook.com/feriavalencia/?locale=es_ES"
-                    src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/fac.jpg" 
+                    src="http://44.196.233.47/Sup1/fac.jpg" 
                     mj-class="social-icon"/>
                 </mj-column> 
                 <mj-column padding-top="25px"> 
                     <mj-image height="43px" width="45px" 
                      href="https://x.com/feria_valencia?lang=es"
-                    src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/x.jpg" 
+                    src="http://44.196.233.47/Sup1/x.jpg" 
                     mj-class="social-icon"/>
                 </mj-column>    
             </mj-group>
