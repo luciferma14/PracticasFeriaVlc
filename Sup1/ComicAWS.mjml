@@ -246,7 +246,8 @@
             <mj-group>    
                 <mj-column padding-top="25px">
                     <mj-image height="43px" width="50px" 
-                     href="http://44.196.233.47/Sup1/ins.jpg" 
+                    href="https://www.instagram.com/feriavalencia/?hl=es"
+                    src="http://44.196.233.47/Sup1/ins.jpg" 
                     mj-class="social-icon"/>
                 </mj-column> 
                 <mj-column padding-top="25px"> 

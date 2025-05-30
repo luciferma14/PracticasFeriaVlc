@@ -43,7 +43,7 @@ CREATE TABLE IF NOT EXISTS envios (
 	id_newsletter INT NOT NULL, -- Clave foránea que apunta a la tabla 'newsletters'
 	fecha_envio DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP, -- Fecha y hora en que se hizo el envío
 	asunto VARCHAR(255) NOT NULL, 
-    electrónico enviado
+    
 	estado_envio VARCHAR(50) NOT NULL, -- Estado del envío (ej. 'Enviado', 'Abierto', 'Rebotado')
 
 	-- Definición de las claves
