@@ -1,15 +1,15 @@
 ##### ReadMe creado por Lucía Ferrandis Martínez.
 ---
-# Información sobre la BBDD de Feria Dos Ruedas.
+# Información sobre la BBDD del Salón del Cómic.
 
-En este ReadMe documentaré como he realizado toda la estructura de la BBDD del Supuesto 4 y como añadimos suscriptores de forma automática.
+En este ReadMe documentaré como he realizado toda la estructura de la BBDD del Supuesto 1 y como añadimos suscriptores de forma automática.
 
 ## Construcción de las diferentes partes.
 
 #### Comenzando con la creación de la base de datos:
 
 ```sql
-CREATE DATABASE DosRuedasFeria;
+CREATE DATABASE ComicFeria;
 ```
 
 #### Después de esto, creamos las tablas que componen la base:
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS envios (
 	estado_envio VARCHAR(50) NOT NULL, -- Estado del envío (ej. 'Enviado', 'Abierto', 'Rebotado')
 
 	-- Definición de las claves
-	FOREIGN KEY (id_suscriptor) REFERENCES suscriptores(id_suscriptor) 	ON DELETE RESTRICT ON UPDATE CASCADE,
+	FOREIGN KEY (id_suscriptor) REFERENCES suscriptores(id_suscriptor) ON DELETE RESTRICT ON UPDATE CASCADE,
 	FOREIGN KEY (id_newsletter) REFERENCES newsletters(id_newsletter) ON DELETE RESTRICT ON UPDATE CASCADE
 );
 ```
@@ -54,41 +54,41 @@ CREATE TABLE IF NOT EXISTS envios (
 #### Ahora añadiremos datos ficticios a las tablas para poder trabajar con ellos:
 
 ```sql
-USE DosRuedasFeria;
+USE ComicFeria;
 ```
 - Introducir datos en 'suscriptores'.
 
 ```sql 
 INSERT INTO suscriptores (nombre, email, edad, idioma) VALUES
-('Elena Navarro', 'elena.navarro@webmail.com', 31, 'es'),
-('Mark Johnson', 'mark.johnson@corp.com', 48, 'en'),
-('Isabelle Moreau', 'isabelle.m@provider.fr', 24, 'fr'),
-('Juanito Alimaña', 'juanito.lima@barrio.es', 65, 'es'),
-('Emily White', 'emily.white@newco.org', 27, 'en');
+('Sofía Ramos', 'sofia.ramos@email.net', 22, 'es'),
+('Michael Brown', 'michael.b@techcorp.com', 38, 'en'),
+('Claire Dupont', 'claire.d@fr.com', 45, 'fr'),
+('Antonio Cortés', 'antonio.cortes@correo.es', 55, 'es'),
+('Linda Evans', 'linda.e@mailservice.us', 30, 'en');
 ```
 - Introducir datos en 'newsletters'.
 
 ```sql
 INSERT INTO newsletters (nombre, descripcion) VALUES
-('Actualidad Tecnológica', 'Las últimas noticias y análisis del mundo de la tecnología.'),
-('Recetas Saludables', 'Ideas de comidas y consejos para una vida más sana.'),
-('Finanzas para Dummies', 'Guía básica para entender el dinero y tus inversiones.'),
-('Viajes y Aventuras', 'Inspiración y guías para tus próximas escapadas.');
+('Diseño y Creatividad', 'Novedades y tendencias en diseño gráfico y digital.'),
+('Cocina del Mundo', 'Recetas internacionales y secretos culinarios.'),
+('Historia y Cultura', 'Artículos sobre eventos históricos y patrimonio cultural.'),
+('Estilo de Vida Saludable', 'Consejos para el bienestar físico y mental.');
 ```
 - Introducir datos en 'envios'.
 
 ```sql
 INSERT INTO envios (id_suscriptor, id_newsletter, fecha_envio, asunto, estado_envio) VALUES
-(1, 1, '2025-05-27 10:00:00', 'Tech News Digest: Mayo 2025', 'Enviado'),
-(2, 4, '2025-05-27 14:15:00', 'Your Next Adventure Awaits!', 'Abierto'),
-(3, 2, '2025-05-26 11:45:00', 'Recette saine de la semaine', 'Enviado'),
-(4, 3, '2025-05-25 09:30:00', 'Guía Rápida de Inversión', 'Clic'),
-(5, 1, '2025-05-24 16:00:00', 'The Latest in AI: Weekly Update', 'Rebotado');
+(1, 1, '2025-05-29 09:30:00', 'Inspiración Semanal: Nuevas Tendencias de Diseño', 'Enviado'),
+(2, 4, '2025-05-29 15:00:00', 'Boost Your Well-being: Health Tips', 'Abierto'),
+(3, 2, '2025-05-28 12:00:00', 'Découvrez la Cuisine Française', 'Enviado'),
+(4, 3, '2025-05-27 10:45:00', 'Grandes Civilizaciones Antiguas', 'Clic'),
+(5, 1, '2025-05-26 11:15:00', 'Creative Insights: Your Weekly Dose', 'Rebotado');
 ```
 
 #### Lo siguiente que haremos será crear un script en Bash para añadir suscriptores desde un cvs pasado como argumento:
 
-- `leerSusRuedas.sh`
+- `leerSusComic.sh`
 
 ```bash
 #!/bin/bash
@@ -96,7 +96,7 @@ INSERT INTO envios (id_suscriptor, id_newsletter, fecha_envio, asunto, estado_en
 DB_HOST="localhost"
 DB_USER="lucifer"
 DB_PASS="**********" # Censurado por seguridad
-DB_NAME="DosRuedasFeria"
+DB_NAME="ComicFeria"
 
 if [ -z "$1" ]; then
 	echo "Uso: $0 <ruta_al_archivo_csv>"
@@ -155,15 +155,15 @@ exit 0
 
 ## ¿Cómo usamos este archivo?
 
-#### Para ejecutar `leerSusRuedas.sh`:
+#### Para ejecutar `leerSusComic.sh`:
 
 - Primero nos aseguramos que tiene permiso de ejecución:
 
 ```bash
-chmod +x leerSusRuedas.sh
+chmod +x leerSusComic.sh
 ```
 - Y lo ejecutamos pasándole el archivo CSV:
 
 ```bash
-bash leerSusRuedas.sh arch.csv
+bash leerSusComic.sh arch.csv
 ```

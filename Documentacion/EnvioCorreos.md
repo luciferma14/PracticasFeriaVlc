@@ -131,5 +131,5 @@ chmod +x enviarCorreo.js
 - Y lo ejecutamos pasandole el archivo CSV y el correo:
 
 ```bash
-node enviarCorreo.js suscriptores.csv dosRuedas.mjml
+node enviarCorreo.js arch.csv arch.mjml
 ```
