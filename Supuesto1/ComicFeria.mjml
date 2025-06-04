@@ -1,9 +1,10 @@
 <mjml>
     <mj-head>
         <mj-title>Supuesto 1</mj-title>
+
         <mj-attributes>
-            
-            <mj-text font-family="Helvetica">
+            <mj-text font-family="Helvetica"/>
+            <mj-section background-color="#b4d495"/>
         </mj-attributes>
 
         <mj-style>
@@ -17,35 +18,37 @@
                 }
             }
         </mj-style>
-
     </mj-head>
+
     <mj-body background-color="#cfe6b9">
     
-        <mj-section></mj-section>
+        <mj-section background-color="#cfe6b9"></mj-section>
 
-        <mj-section background-color="#b4d495" padding="0px"> 
-        <mj-column>
-            <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Cabezera.jpg" padding-top="0px" padding="0px"
-                href="https://www.saloncomicvalencia.com/"></mj-image>
-            <mj-text align="center" font-size="16.4px" color="#2b3a21"
-                line-height="33px" padding-bottom="0px">
-                <h1>VALENCIA SE LLENA DE VIÑETAS</h1>
-            </mj-text>
-            <mj-text align="center" font-size="16.7px" color="#2b3a21" 
-                line-height="33px" padding-top="0px" padding-bottom="0px">
-                <h2>Lo más destacado del Salón del Cómic</h1>
-            </mj-text>  
-        </mj-column>
+        <mj-section padding="0px"> 
+            <mj-column>
+                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/Cabezera.jpg" padding-top="0px" padding="0px"
+                    href="https://www.saloncomicvalencia.com/">
+                </mj-image>
+                <mj-text align="center" font-size="16.4px" color="#2b3a21"
+                    line-height="33px" padding-bottom="0px">
+                    <h1>VALENCIA SE LLENA DE VIÑETAS</h1>
+                </mj-text>
+                <mj-text align="center" font-size="16.7px" color="#2b3a21" 
+                    line-height="33px" padding-top="0px" padding-bottom="0px">
+                    <h2>Lo más destacado del Salón del Cómic</h1>
+                </mj-text>  
+            </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495">
+        <mj-section>
             <mj-column>
                 <mj-text align="left" font-size="16.7px" color="#2b3a21" 
                     line-height="30px" padding-top="0px" padding-bottom="0px"
                     font-family="Open Sans">
-                    <p>¡Hola, amantes del cómic y la fantasía! 
+                    <p> ¡Hola, amantes del cómic y la fantasía! 
                         La Feria de Valencia se prepara para acoger 
-                    un año más el vibrante Salón del Cómic.</p>
+                        un año más el vibrante Salón del Cómic.
+                    </p>
                 </mj-text>
                 <mj-text align="left" font-size="18.7px" color="#2b3a21" 
                     line-height="30px" padding-top="0px" padding-bottom="0px"
@@ -53,19 +56,18 @@
                     <strong>¡Aquí tienes todo lo que necesitas saber!</strong>
                 </mj-text>
             </mj-column>
-
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Portada.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/Portada.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495">
+        <mj-section>
             <mj-column>
                 <mj-divider border-width="4px" border-color="#cfe6b9" />
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495" padding="0px"> 
+        <mj-section padding="0px"> 
             <mj-column>
                 <mj-text align="left" font-size="16.7px" color="#2b3a21" 
                     line-height="33px" padding-top="0px" padding-bottom="0px">
@@ -74,9 +76,9 @@
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495" padding="0px">
+        <mj-section padding="0px">
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Escritora.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/Escritora.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
             <mj-column>
                 <mj-text align="left" font-size="18.7px" color="#2b3a21" 
@@ -87,12 +89,14 @@
                 <mj-text align="left" font-size="16.7px" color="#2b3a21" 
                     line-height="30px" padding-top="0px" padding-bottom="0px"
                     font-family="Open Sans" padding-right="45px">
-                    <p>Autora e ilustradora estadounidense cuyo 
-                    trabajo ha revolucionado la novela gráfica contemporánea.</p>
+                    <p> Autora e ilustradora estadounidense cuyo 
+                        trabajo ha revolucionado la novela gráfica contemporánea.
+                    </p>
                 </mj-text>
             </mj-column>
         </mj-section>
-        <mj-section background-color="#b4d495">
+
+        <mj-section>
             <mj-column>
                 <mj-text align="left" font-size="18.7px" color="#2b3a21" 
                     line-height="30px" padding-top="0px" padding-bottom="0px"
@@ -102,23 +106,24 @@
                 <mj-text align="left" font-size="16.7px" color="#2b3a21" 
                     line-height="30px" padding-top="0px" padding-bottom="0px"
                     font-family="Open Sans" padding-right="45px">
-                    <p>Artista autodidacta que combina ilustración, 
-                    cómic, pintura y muralismo en una carrera que refleja
-                    la riqueza cultural de su país de origen.</p>
+                    <p> Artista autodidacta que combina ilustración, cómic, 
+                        pintura y muralismo en una carrera que refleja
+                        la riqueza cultural de su país de origen.
+                    </p>
                 </mj-text>
             </mj-column>
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Eusebio.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/Eusebio.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495">
+        <mj-section>
             <mj-column>
                 <mj-divider border-width="4px" border-color="#cfe6b9" />
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495" padding="0px"> 
+        <mj-section padding="0px"> 
             <mj-column>
                 <mj-text align="left" font-size="16.6px" color="#2b3a21" 
                     line-height="33px" padding-top="0px" padding-bottom="0px">
@@ -127,31 +132,31 @@
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495" padding="0px">
+        <mj-section padding="0px">
             <mj-column>
                 <mj-text align="left" font-size="16.7px" color="#2b3a21" 
                     line-height="30px" padding-top="0px" padding-bottom="0px"
                     font-family="Open Sans" padding-right="45px">
-                    <p>Aquí, el manga, el anime y la cultura pop 
-                    cobran vida. Encontrarás stands con las últimas 
-                    novedades editoriales, tiendas de merchandising 
-                    exclusivo y mucho más!!</p>
+                    <p> Aquí, el manga, el anime y la cultura pop 
+                        cobran vida. Encontrarás stands con las últimas 
+                        novedades editoriales, tiendas de merchandising 
+                        exclusivo, ¡y mucho más!
+                    </p>
                 </mj-text>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Figuras.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/Figuras.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Anime.jpg" padding-top="60px" 
-                css-class="movil_no"></mj-image>
+                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/Anime.jpg" padding-top="60px" css-class="movil_no"></mj-image>
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495">
+        <mj-section>
             <mj-column>
                 <mj-divider border-width="4px" border-color="#cfe6b9" />
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495" padding="0px"> 
+        <mj-section padding="0px"> 
             <mj-column>
                 <mj-text align="left" font-size="16.6px" color="#2b3a21" 
                     line-height="33px" padding-top="0px" padding-bottom="0px">
@@ -159,28 +164,30 @@
                 </mj-text>  
             </mj-column>
         </mj-section>
-        <mj-section background-color="#b4d495" padding="0px">
+
+        <mj-section padding="0px">
             <mj-column>
                 <mj-text align="left" font-size="16.7px" color="#2b3a21" 
                     line-height="30px" padding-top="0px" padding-bottom="0px"
                     font-family="Open Sans" padding-right="45px">
-                    <p>Como cada año, el Salón del Cómic de 
-                    Valencia reconoce lo mejor del cómic español. 
-                    Este año, la emoción está asegurada con nominaciones 
-                    en categorías como <strong> Mejor Obra Nacional y Mejor 
-                    Artista Revelación.</strong></p>
+                    <p> Como cada año, el Salón del Cómic de 
+                        Valencia reconoce lo mejor del cómic español. 
+                        Este año, la emoción está asegurada con nominaciones 
+                        en categorías como <strong> Mejor Obra Nacional y Mejor 
+                        Artista Revelación.</strong>
+                    </p>
                 </mj-text>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Premios.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/Premios.jpg" href="https://www.saloncomicvalencia.com/"></mj-image>
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495">
+        <mj-section>
             <mj-column>
                 <mj-divider border-width="4px" border-color="#cfe6b9" />
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495" padding="0px"> 
+        <mj-section padding="0px"> 
             <mj-column>
                 <mj-text align="left" font-size="16.6px" color="#2b3a21" 
                     line-height="33px" padding-top="0px" padding-bottom="0px">
@@ -189,38 +196,41 @@
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495" padding="0px">
+        <mj-section padding="0px">
             <mj-column>
                 <mj-text align="left" font-size="16.7px" color="#2b3a21" 
                     line-height="30px" padding-top="0px" padding-bottom="0px"
                     font-family="Open Sans" padding-right="45px">
-                    <p>Cientos de artistas y dibujantes independientes
-                    te esperan con fanzines, ilustraciones originales, 
-                    prints y cómics autoeditados. Es la oportunidad perfecta 
-                    para descubrir nuevos talentos y <strong>llevarte una obra 
-                    con alma.</strong></p>
+                    <p> Cientos de artistas y dibujantes independientes
+                        te esperan con fanzines, ilustraciones originales, 
+                        prints y cómics autoeditados. Es la oportunidad perfecta 
+                        para descubrir nuevos talentos y <strong>llevarte una obra 
+                        con alma.</strong>
+                    </p>
                 </mj-text>
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495" padding="0px">
+        <mj-section padding="0px">
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Dibujo.jpg" padding-top="30.6px"
-                    href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/Dibujo.jpg" padding-top="30.6px"
+                    href="https://www.saloncomicvalencia.com/">
+                </mj-image>
             </mj-column>
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/SenyorDibujo.jpg" css-class="movil_no"
-                    href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/SenyorDibujo.jpg" css-class="movil_no"
+                    href="https://www.saloncomicvalencia.com/">
+                </mj-image>
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495">
+        <mj-section>
             <mj-column>
                 <mj-divider border-width="4px" border-color="#cfe6b9" />
             </mj-column>
         </mj-section>
 
-        <mj-section background-color="#b4d495" padding="0px"> 
+        <mj-section padding="0px"> 
             <mj-column>
                 <mj-text align="left" font-size="10.4px" color="#2b3a21" 
                     line-height="33px" padding-top="0px" padding-bottom="0px"
@@ -231,46 +241,53 @@
                 <mj-text align="left" font-size="16.7px" color="#2b3a21" 
                     line-height="30px" padding-top="0px" padding-bottom="0px"
                     font-family="Open Sans" padding-right="45px">
-                    <p>¡La diversión no para! Participa en nuestro 
-                    Concurso de Cosplay, donde la creatividad y el 
-                    trabajo artesanal de los cosplayers te dejarán 
-                    sin aliento.</p>
+                    <p> ¡La diversión no para! Participa en nuestro 
+                        Concurso de Cosplay, donde la creatividad y el 
+                        trabajo artesanal de los cosplayers te dejarán 
+                        sin aliento.
+                    </p>
                 </mj-text>
             </mj-column>
             <mj-column>
-                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/Gary.jpg" padding-top="30.6px"
-                    href="https://www.saloncomicvalencia.com/"></mj-image>
+                <mj-image src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/Gary.jpg" padding-top="30.6px"
+                    href="https://www.saloncomicvalencia.com/">
+                </mj-image>
             </mj-column>
         </mj-section>
-        <mj-section background-color="#b4d495" padding="0px"> 
+
+        <mj-section padding="0px"> 
             <mj-group>    
                 <mj-column padding-top="25px">
                     <mj-image height="43px" width="50px" 
-                     href="https://www.instagram.com/feriavalencia/?hl=es"
-                    src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/ins.jpg" 
-                    mj-class="social-icon"/>
+                        href="https://www.instagram.com/feriavalencia/?hl=es"
+                        src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/ins.jpg" 
+                        mj-class="social-icon">
+                    </mj-image>
                 </mj-column> 
                 <mj-column padding-top="25px"> 
                     <mj-image height="40px" width="45px" 
-                    href="https://www.facebook.com/feriavalencia/?locale=es_ES"
-                    src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/fac.jpg" 
-                    mj-class="social-icon"/>
+                        href="https://www.facebook.com/feriavalencia/?locale=es_ES"
+                        src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/fac.jpg" 
+                        mj-class="social-icon">
+                    </mj-image>
                 </mj-column> 
                 <mj-column padding-top="25px"> 
                     <mj-image height="43px" width="45px" 
-                     href="https://x.com/feria_valencia?lang=es"
-                    src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Sup1/ImageSup1/x.jpg" 
-                    mj-class="social-icon"/>
+                        href="https://x.com/feria_valencia?lang=es"
+                        src="http://raw.githubusercontent.com/luciferma14/PracticasFeriaVlc/main/Supuesto1/ImageSup1/x.jpg" 
+                        mj-class="social-icon">
+                    </mj-image>
                 </mj-column>    
             </mj-group>
         </mj-section>
+
         <mj-section background-color="#2b3a21" padding-top="15px">
             <mj-column>
                 <mj-text line-height="15px" align="center" color="#cfe6b9" >
                     Puedes consultar las bases legales en
                 </mj-text>
                 <mj-text line-height="0px"align="center" color="#cfe6b9"> 
-                <a href="https://www.feriavalencia.com/">www.feriavalencia.com</a>    
+                    <a href="https://www.feriavalencia.com/">www.feriavalencia.com</a>    
                 </mj-text>
             </mj-column>
         </mj-section>
@@ -289,10 +306,14 @@
                     Has recibido este correo por cuenta de SOCIETAT VALENCIANA FIRA VALÈNCIA S.A. 
                     porque nos has autorizado a enviarte comunicaciones comerciales de FIRA 
                     VALÈNCIA. Recuerda que puedes obtener más información sobre cómo usamos tus 
-                    datos personales y cuáles son tus derechos en la <a href="https://www.feriavalencia.com/politica-de-privacidad/">Política de Privacidad</a> disponible en la web de FIRA VALÈNCIA.</mj-text>
+                    datos personales y cuáles son tus derechos en la 
+                    <a href="https://www.feriavalencia.com/politica-de-privacidad/">Política de Privacidad</a> 
+                    disponible en la web de FIRA VALÈNCIA.
+                </mj-text>
             </mj-column>
         </mj-section>
 
-        <mj-section></mj-section>
+        <mj-section background-color="#cfe6b9"></mj-section>
+
     </mj-body>
 </mjml>
